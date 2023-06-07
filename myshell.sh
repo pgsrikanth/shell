@@ -1,18 +1,21 @@
 
 logo=/tmp/out
+ram=sudo
 
 echo updating system
-sudo apt-get update       &>>logo
+ram apt-get update       &>>logo
 echo status =$?
 
 echo installing nginx
-sudo apt-get install ngin &>>logo
+ram apt-get install nginx &>>logo
 echo status =$?
 
 echo nginx staring
-sudo service nginx start
+ram service nginx start
 echo status =$?
 
+echo change directoty
+ram cd /opt       &>>logo
+
 echo creating folder
-sudo cd /opt       &>>logo
 mkdir gow     &>>logo
