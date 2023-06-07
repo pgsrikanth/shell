@@ -19,3 +19,9 @@ echo change directoty
 
 echo creating folder
 mkdir gow     &>>logo
+
+echo vi editing
+sudo vi sri
+hello world
+esc:wq
+echo status =$?
