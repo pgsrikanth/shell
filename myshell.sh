@@ -20,7 +20,7 @@ echo change directoty
 echo creating folder
 mkdir gow     &>>logo
 
-echo vi editing
+echo vimediting process
 sudo vi sri
 hello world
 esc:wq
