@@ -6,7 +6,7 @@ sudo apt-get update       &>>logo
 echo status =$?
 
 echo installing nginx
-sudo apt-get install nginx  &>>logo
+sudo apt-get install nginx -y &>>logo
 echo status =$?
 
 echo nginx staring
